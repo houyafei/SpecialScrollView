@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpScrollView_LayoutParams">
+        <attr name="spscrollvew_alpha" format="boolean"/>
+        <attr name="spscrollvew_scaleX" format="boolean"/>
+        <attr name="spscrollvew_scaleY" format="boolean"/>
+        <attr name="spscrollvew_threshold" format="float"/>
+        <attr name="spscrollvew_fromBgColor" format="color"/>
+        <attr name="spscrollvew_toBgColor" format="color"/>
+        <attr name="spscrollvew_translation"/>
+    </declare-styleable>
+
+    <attr name="spscrollvew_translation">
+        <flag name="fromTop" value="0x01" />
+        <flag name="fromBottom" value="0x02" />
+        <flag name="fromLeft" value="0x04" />
+        <flag name="fromRight" value="0x08" />
+    </attr>
+</resources>

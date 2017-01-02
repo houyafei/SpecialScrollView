@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.romanticview.hyf.app20161229.lib.SpecialScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.romanticview.hyf.app20161229.lib.SpecialScrollViewContent
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:padding="25dp"
+            android:textSize="62sp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:text="We get married" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:paddingTop="150dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="从前不知道永远是什么,直到某天沦陷于你的温柔,人群中只有你最叫我感动,单膝跪地请嫁给我吧!!!"
+            android:textSize="18sp"
+            discrollve:spscrollvew_alpha="true"
+            discrollve:spscrollvew_translation="fromLeft" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            discrollve:spscrollvew_alpha="true"
+            discrollve:spscrollvew_translation="fromLeft"
+            android:src="@drawable/hyf2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="我们的小幸福, 不用全世界祝福,两个人在一起就满足,为你披上婚纱"
+            android:textSize="18sp"
+            discrollve:spscrollvew_alpha="true"
+            discrollve:spscrollvew_translation="fromBottom" />
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:paddingTop="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hyf24"
+            discrollve:spscrollvew_translation="fromRight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="请你嫁给我吧"
+            android:textSize="18sp"
+            discrollve:spscrollvew_alpha="true"
+            discrollve:spscrollvew_translation="fromBottom" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:paddingTop="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hyf22"
+            discrollve:spscrollvew_scaleX="true"
+            discrollve:spscrollvew_scaleY="true"  />
+
+    </com.romanticview.hyf.app20161229.lib.SpecialScrollViewContent>
+</com.romanticview.hyf.app20161229.lib.SpecialScrollView>
